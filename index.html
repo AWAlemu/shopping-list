@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List App</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="main">
+		<div class="heading">
+			<h1>Shopping List</h1>
+			<hr>
+		</div>
+		<div class="user-input">
+			<form class="form" action="">
+				<input type="text" name="Item" placeholder="Enter Item">
+				<input type="number" name="Quantity" placeholder="Quantity">
+				<i class="icon cart-plus fa fa-cart-plus"></i>
+			</form>
+			
+		</div>
+		<div class="list-container">
+			<ul>
+				<li id="itm1" class="unchecked">Item 1
+					<div class="edit-list-icons"> 
+						<i class="icon strike fa fa-strikethrough"></i>
+						<i class="icon edit-list-pencil fa fa-pencil-square-o"></i>
+						<i class="icon eraser fa fa-eraser"></i>
+					</div>
+				</li>
+				
+				<li id="itm2" class="unchecked">Item 2</li>
+				<li id="itm3" class="unchecked">Item 3</li>
+				<li id="itm4" class="checked">Item 4</li>
+				<li id="itm3" class="checked">Item 3</li>
+			</ul>
+			
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/script.js"></script>	
+</body>
+</html>

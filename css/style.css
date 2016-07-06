@@ -1,0 +1,51 @@
+body {
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.2em;
+}
+.main {
+	width: 40%;
+	min-height: 25em;
+	margin: auto;
+	padding: 1em;
+	border: 2px solid black;
+}
+.heading, .form {
+	text-align: center;
+}
+.heading h1 {
+	margin-bottom: 0;
+}
+hr {
+
+}
+.form {
+	display: block;
+}
+.list-container {
+	margin-left: 3.5em;
+}
+.edit-list-icons {
+	float: right;
+}
+.icon {
+	border: 1px solid #eaebec;
+	border-radius: 1.25em;
+	width: 2.25em;
+	text-align: center;
+	padding: 0.15em;
+}
+
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+.unchecked {
+	text-decoration: none;
+}
+.checked {
+	text-decoration: line-through;
+	font: gray;
+}
+.removed {
+	display: none;
+}
