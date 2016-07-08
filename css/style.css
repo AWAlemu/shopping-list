@@ -3,7 +3,7 @@ body {
 	letter-spacing: 0.2em;
 }
 .main {
-	width: 40%;
+	max-width: 20em;
 	min-height: 25em;
 	margin: auto;
 	padding: 1em;
@@ -20,7 +20,10 @@ hr {
 }
 .form {
 	display: block;
+	float: left;
+	margin: 0 1em 0 3em;
 }
+
 .list-container {
 	margin-left: 3.5em;
 }
@@ -33,19 +36,24 @@ hr {
 	width: 2.25em;
 	text-align: center;
 	padding: 0.15em;
+	z-index: 999;
 }
-
+.icon:hover{
+	cursor: pointer;
+	background-color: gray;
+	border-radius: 1.5rem;
+}
 ul {
 	padding-left: 0;
 	list-style: none;
 }
-.unchecked {
-	text-decoration: none;
-}
 .checked {
 	text-decoration: line-through;
-	font: gray;
+	color: gray;
 }
-.removed {
+button {
+	border: none;
+	background-color: #fff;
+	padding: 0;
 	display: none;
 }
